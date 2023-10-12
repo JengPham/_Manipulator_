@@ -23,7 +23,7 @@ typedef struct{
 }Robot;
 
 
-void Robot_Init(Robot *vRobot);   // Ham khoi tao cac gia tri robot
-void MatrixMultiply(float matrix1[row][col], float matrix2[row][col], float res[row][col]);  // Ham nhan ma tran
-void Invert_Kinematic(Robot *vRobot);  // Ham tinh toan dong hoc nguoc vi tri.
+void Robot_Init(Robot *vRobot);  
+void MatrixMultiply(float matrix1[row][col], float matrix2[row][col], float res[row][col]);  
+void Invert_Kinematic(Robot *vRobot); 
 void Convert_Angle(Robot *vRobot);
